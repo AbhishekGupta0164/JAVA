@@ -5,9 +5,9 @@ public class literals {
         float f1 = 4.5f;
         double d1 = 5.6d;
         short s1 = 56;
-        long ageDino = 732961793693L;
+        long ageDino = 7396179363L;
         boolean a = true;
-        double d2 = 3.456789;
+        double d2 = 3.45689;
         String str = "This is a string";
         System.out.println("My age is: " + age);
         System.out.println(str);
