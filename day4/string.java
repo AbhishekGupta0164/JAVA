@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class string {
     public static void main(String[] args) {
 
@@ -14,7 +12,7 @@ public class string {
         int a = 7;
         float b = 3903.3f;
         System.out.printf("the value of a is %d and value of b is %f ", a, b);
-        System.out.format("the value of a is %d and value of b is %f ", a, b);
+        // System.out.format("the value of a is %d and value of b is %f ", a, b);
 
     }
 
