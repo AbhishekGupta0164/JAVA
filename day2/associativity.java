@@ -30,7 +30,7 @@ public class associativity {
         int a = 5;
         int b = 3;
         int c = 6;
-        int m = b * b - (4 * a * c) / (2 * a);
+        int m = (b * b - 4 * a * c) / (2 * a);
         System.out.println(m);
 
     }
