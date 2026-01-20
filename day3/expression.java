@@ -23,6 +23,10 @@ public class expression {
         // char ch = 'A';
         // System.out.println(++ch);
 
+        // expression
+        // float a = 7 / 4.0f * 9 / 2.0f;
+        // System.out.println(a);
+
     }
 
 }
