@@ -24,5 +24,6 @@ public class io {
       String str = sc.nextLine(); // FOR FULL LINE STRING OR text READ we use nextline() & IF ONLY NEXT USED IT
                                   // READ ONLY 1ST WORD
       System.out.println(str);
+      sc.close();
    }
 }
