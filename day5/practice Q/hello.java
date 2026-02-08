@@ -4,7 +4,7 @@ public class hello {
     public static void main(String[] args) {
         // System.out.println("hello");
 
-        // PROBLEM1 *************************
+        // PROBLEM1 AVG MARKS AND PERCENTAGE CALCULATOR*************************
 
         // byte m1, m2, m3;
         // Scanner sc = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class hello {
         // System.out.println("your percentage is: " + (avg * 100 / 100));
         // System.out.println("your marks are: " + m1 + " " + m2 + " " + m3);
 
-        // PROBLEM 2 *********************************************
+        // PROBLEM 2 INCOME TAX CALCULATOR *********************************************
 
         // Scanner sc = new Scanner(System.in);
         // System.out.println("enter your income in lakhs:");
@@ -54,7 +54,7 @@ public class hello {
         // }
         // System.out.println("total tax paid by the emplayee is: " + tax + " lakhs");
 
-        // problem3 ********************************************
+        // problem3 LEAP YEAR********************************************
 
         // Scanner sc = new Scanner(System.in);
         // System.out.println("enter year:");
@@ -65,8 +65,8 @@ public class hello {
         // System.out.println("not a leap year");
         // }
 
-        // problem4 ***********************************************
-
+        // problem4 WEBSITE ORIGIN
+        // CHECKER***********************************************
         Scanner sc = new Scanner(System.in);
         System.out.println("enter your website:");
         String website = sc.next();
@@ -80,5 +80,6 @@ public class hello {
             System.out.println("unknown website");
         }
 
+        sc.close();
     }
 }
