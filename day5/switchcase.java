@@ -32,6 +32,7 @@ public class switchcase {
             default:
                 System.out.println("Invalid day!");
         }
+        sc.close();
     }
 
 }
