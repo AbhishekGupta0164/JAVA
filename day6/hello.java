@@ -1,3 +1,5 @@
+package day6;
+
 import java.util.Scanner;
 
 // code for rock paper scissors game
@@ -5,6 +7,7 @@ public class hello {
     public static void main(String[] args) {
         System.out.println("Welcome to Rock Paper Scissors Game!");
         Scanner sc = new Scanner(System.in);
+        sc.close();
         System.out.println("Enter choice of 1st player: ");
         String player1 = sc.next();
         System.out.println("Enter choice of 2nd player: ");
