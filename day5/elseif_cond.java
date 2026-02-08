@@ -18,5 +18,7 @@ public class elseif_cond {
         } else {
             System.out.println("Grade: F");
         }
+
+        sc.close();
     }
 }
