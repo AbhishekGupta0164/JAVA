@@ -19,11 +19,10 @@ public class multidim_array {
         // printing array using loop
         System.out.println("printing a 2-D array using loop:");
 
-        for (int i = 0; i < flats.length; i++) {
-            for (int j = 0; j < flats[i].length; j++) {
-                System.out.print(flats[i][j]);
+        for (int[] flat : flats) {
+            for (int j = 0; j < flat.length; j++) {
+                System.out.print(flat[j]);
                 System.out.print(" ");
-
             }
             System.out.println(" ");
         }
