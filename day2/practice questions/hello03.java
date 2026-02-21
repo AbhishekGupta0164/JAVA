@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class hello03 {
     public static void main(String[] args) {
         // Question 1: Write a Java program to find the sum of three numbers.
-        int a = 67;
-        int b = 90;
-        int c = 83;
-        int sum = a + b + c;
-        System.out.println("The sum of the three numbers is: " + sum);
+        // int a = 67;
+        // int b = 90;
+        // int c = 83;
+        // int sum = a + b + c;
+        // System.out.println("The sum of the three numbers is: " + sum);
 
         // QUESTION 2: Write a Java program to calculate the CGPA of a student given the
         // marks of three subjects (out of 100).
@@ -19,10 +19,10 @@ public class hello03 {
 
         // QUESTION 3: Write a Java program to print "Hello <name>, have a good day"
         // where <name> is the name entered by the user.
-        // System.out.println("What is your name?");
-        // Scanner sc = new Scanner(System.in);
-        // String name = sc.next();
-        // System.out.println("hello " + name + " have a good day");
+        System.out.println("What is your name?");
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        System.out.println("hello " + name + " have a good day");
 
         // QUESTION 4: Write a Java program to conver km to miles
         // System.out.println("Enter the value in kilometers: ");
