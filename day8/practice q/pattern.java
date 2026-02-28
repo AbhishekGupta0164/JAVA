@@ -11,7 +11,7 @@ public class pattern {
     }
 
     public static void main(String[] args) {
-        pattern1(9);
+        pattern1(8);
     }
 
 }
