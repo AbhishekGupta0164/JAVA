@@ -1,4 +1,5 @@
 public class method {
+
     static int logic(int x, int y) {
         int z;
         if (x > y) {
@@ -18,8 +19,8 @@ public class method {
         int b1 = 1;
         int c1;
         c1 = logic(a1, b1);
-        System.out.println(c);
-        System.out.println(c1);
+        System.out.println(c); // 60
+        System.out.println(c1); // 3
 
     }
 
