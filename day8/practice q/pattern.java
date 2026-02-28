@@ -10,8 +10,18 @@ public class pattern {
 
     }
 
+    static void pattern2(int m) {
+        for (int x = 0; x < m - 1; x++) {
+            for (int y = x; y < m; y++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         pattern1(8);
+        pattern2(7);
     }
 
 }
