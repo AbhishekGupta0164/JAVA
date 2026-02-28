@@ -1,4 +1,4 @@
-
+// question 2 -  to print a pattern 
 public class pattern {
     static void pattern1(int n) {
         for (int i = 0; i < n; i++) {
