@@ -12,8 +12,10 @@ public class variable_argument {
     // return a + b + c + d;
     // }
 
-    // **** instead of using these 3 diffrent methods we use varargs ( ... )
-    // varargs = return all arguments into an arr
+    /*
+     * instead of using these 3 diffrent methods we use varargs ( ... )
+     * varargs = return all arguments into an arr
+     */
 
     // static int sum(int x, int... arr){
     // int return x; // then it is compulsary to give value of x
@@ -24,7 +26,7 @@ public class variable_argument {
     // }
 
     static int sum(int... arr) {
-        // //***available as int[] arr
+        // //** available as int[] arr
         int result = 0;
         for (int a : arr) {
             result += a;
