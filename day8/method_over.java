@@ -11,18 +11,18 @@ public class method_over {
         System.out.println("good monkey " + x + " bhai " + y);
     }
 
-    static void change(int a) {
-        a = 89;
-    }
+    // static void change(int a) {
+    // a = 89;
+    // }
 
     static void change2(int[] arr) {
         arr[0] = 73;
     }
 
-    static void tellme() {
-        System.out.println(" hi rana \n " + " how are you ?");
+    // static void tellme() {
+    // System.out.println(" hi rana \n " + " how are you ?");
 
-    }
+    // }
 
     public static void main(String[] args) {
         // tellme();
