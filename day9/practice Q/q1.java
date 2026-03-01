@@ -27,7 +27,7 @@ public class q1 {
         cylinder shape = new cylinder();
         shape.setRadius(25);
         System.out.println(shape.getRadius());
-        shape.setHeight(10);
+        shape.setHeight(15);
         System.out.println(shape.getHeight());
     }
 }
