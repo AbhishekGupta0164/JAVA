@@ -1,3 +1,5 @@
+package Inheritance;
+
 // Inheritance --> example using base class and derived class 
 class Base {
     int x;
