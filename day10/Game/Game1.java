@@ -2,6 +2,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
+// Game --> Guess the number from 0 to 100 
 /*
  * Create a class game, which allowa a user to play "Guess the Number"
  * game once, game should have the following methods
