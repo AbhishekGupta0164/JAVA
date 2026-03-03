@@ -32,7 +32,7 @@ public class multithreadingProblem {
         myThread1 t1 = new myThread1(b);
         t1.setName("ansh");
         myThread1 t2 = new myThread1(b);
-        t2.setName("ayush");
+        t2.setName("abhi");
         t1.start();
         t2.start();
 
