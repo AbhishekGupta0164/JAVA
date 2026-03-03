@@ -30,7 +30,7 @@ public class multithreadingProblem {
     public static void main(String[] args) {
         bank b = new bank();
         myThread1 t1 = new myThread1(b);
-        t1.setName("ansh");
+        t1.setName("akash");
         myThread1 t2 = new myThread1(b);
         t2.setName("abhi");
         t1.start();
