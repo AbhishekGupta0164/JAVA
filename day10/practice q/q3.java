@@ -18,7 +18,7 @@ public class q3 {
         square_q3 sq = new square_q3();
         sq.side = 6;
         System.out.println("area of square is: " + sq.area());
-        System.out.println("parameter of square is: " + sq.parameter());
+        System.out.println("parameter of square is:  " + sq.parameter());
 
     }
 
