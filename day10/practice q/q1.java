@@ -6,7 +6,7 @@
 5. getname(method returning string)
 6. getname(method changing name)
  */
-class employee {
+class employee_Q1 {
 
     int Salary;
     String Name;
@@ -26,7 +26,7 @@ class employee {
 
 public class q1 {
     public static void main(String[] args) {
-        employee abhi = new employee();
+        employee_Q1 abhi = new employee_Q1();
         abhi.setName("Abhishek");
         abhi.Salary = 500;
         System.out.println(abhi.getSalary());
