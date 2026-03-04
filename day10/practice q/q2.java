@@ -1,6 +1,6 @@
 //create a class cellphone with methods to print ringing... , vibrating.. etc
 
-class SmartPhone {
+class SmartPhone_Q2 {
 
     public void ring() {
         System.out.println("ringing");
@@ -18,7 +18,7 @@ class SmartPhone {
 
 public class q2 {
     public static void main(String[] args) {
-        SmartPhone iphone = new SmartPhone();
+        SmartPhone_Q2 iphone = new SmartPhone_Q2();
         iphone.ring();
         iphone.vibration();
         iphone.callfriend();
