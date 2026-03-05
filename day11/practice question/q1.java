@@ -36,5 +36,7 @@ public class q1 {
         // circle objC = new circle(5);
         cylinder objCy = new cylinder(5, 10);
 
+        System.out.println("Area = " + objCy.area());
+        System.out.println("Volume = " + objCy.volume());
     }
 }
