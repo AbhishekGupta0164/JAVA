@@ -42,7 +42,7 @@ public class hello {
         // Base1 b = new Base1();
         // Derived1 d = new Derived1();
         // Derived1 d = new Derived1(4, 9);
-        Child_of_Derived cd = new Child_of_Derived(12, 23, 24);
+        Child_of_Derived cd = new Child_of_Derived(12, 32, 24);
 
     }
 
