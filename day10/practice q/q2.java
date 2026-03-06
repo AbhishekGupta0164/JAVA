@@ -3,11 +3,11 @@
 class SmartPhone_Q2 {
 
     public void ring() {
-        System.out.println("ringing");
+        System.out.println("SmartPhone is ringing");
     }
 
     public void vibration() {
-        System.out.println("vibration");
+        System.out.println("SmartPhone is vibrating");
     }
 
     public void callfriend() {
