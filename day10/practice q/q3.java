@@ -16,7 +16,7 @@ class square_q3 {
 public class q3 {
     public static void main(String[] args) {
         square_q3 sq = new square_q3();
-        sq.side = 6;
+        sq.side = 10;
         System.out.println("area of square is: " + sq.area());
         System.out.println("parameter of square is:  " + sq.parameter());
 
