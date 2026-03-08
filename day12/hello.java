@@ -14,13 +14,13 @@ class Parent1 {
 class Child1 extends Parent1 {
     @Override
     public void greet() {
-        System.out.println("good morning");
+        System.out.println("good morning, this is an overridden file ");
     }
 }
 
 abstract class Child2 extends Parent1 {
-    public void th(){
-        sout
+    public void th() {
+
     }
 }
 
