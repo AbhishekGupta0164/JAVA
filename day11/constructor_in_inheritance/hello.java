@@ -6,7 +6,7 @@ class Base1 {
     }
 
     Base1(int x) { // overloaded class of base1
-        System.out.println("I am a overloaded constructor " + x);
+        System.out.println("I am a overloaded constructor of base class " + x);
     }
 
 }
