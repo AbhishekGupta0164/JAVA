@@ -1,24 +1,24 @@
 // Interfaces in JAVA
 interface Bicycle {
-    int a = 45;
+    int a = 47;
 
     void applyBrake(int decrement);
 
     void speedUp(int increment);
 }
 
-interface HornBicycle {
+interface Horn_Bicycle {
 
     void blowHorn123();
 
-    void blowHorn898();
+    void blowHorn878();
 }
 
 // more then one class is implements using interface , it is not allowed in
 // abstract class to use more then one
-// multiple inheritance is not allowed as it form ambiguity , dimond problem
+// --> multiple inheritance is not allowed as it form ambiguity , dimond problem
 // arises
-class AvonCycle implements Bicycle, HornBicycle {
+class AvonCycles implements Bicycle, Horn_Bicycle {
     void blowHorn() {
         System.out.println("poooo");
     }
@@ -39,14 +39,14 @@ class AvonCycle implements Bicycle, HornBicycle {
     }
 
     @Override
-    public void blowHorn898() {
+    public void blowHorn878() {
         System.out.println("Main hoon naaa pooooooooo");
     }
 }
 
 public class hello {
     public static void main(String[] args) {
-        AvonCycle cycleAbhi = new AvonCycle();
+        AvonCycles cycleAbhi = new AvonCycles();
         cycleAbhi.applyBrake(1);
         // you can create properties in interface
         System.out.println(cycleAbhi.a);
@@ -55,6 +55,8 @@ public class hello {
         // System.out.println(cycleAbhi.a);
 
         cycleAbhi.blowHorn123();
-        cycleAbhi.blowHorn898();
+        cycleAbhi.blowHorn878();
+        cycleAbhi.blowHorn();
+
     }
 }
