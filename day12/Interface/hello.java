@@ -14,8 +14,10 @@ interface HornBicycle {
     void blowHorn898();
 }
 
-// more then one class is implements in interface , it is not allowed in
+// more then one class is implements using interface , it is not allowed in
 // abstract class to use more then one
+// multiple inheritance is not allowed as it form ambiguity , dimond problem
+// arises
 class AvonCycle implements Bicycle, HornBicycle {
     void blowHorn() {
         System.out.println("poooo");
