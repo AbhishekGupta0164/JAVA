@@ -34,8 +34,11 @@ abstract class Child2 extends Parent {
 
 public class hello {
     public static void main(String[] args) {
-        Child.sc = new Child();
+        Child sc = new Child();
 
+        sc.sayHello();
+        sc.greet();
+        sc.greet1();
         // create error as it is a abstract class so no object is created
         // Child2= new Child2();
         // Parent = new Parent();
