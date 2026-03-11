@@ -21,18 +21,22 @@ class AvonCycle implements Bicycle, HornBicycle {
         System.out.println("poooo");
     }
 
+    @Override
     public void applyBrake(int decrement) {
         System.out.println("applying Break");
     }
 
+    @Override
     public void speedUp(int increment) {
         System.out.println("applying speedUp");
     }
 
+    @Override
     public void blowHorn123() {
         System.out.println("Kabhi khushi kabhi gum");
     }
 
+    @Override
     public void blowHorn898() {
         System.out.println("Main hoon naaa pooooooooo");
     }
