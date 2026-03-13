@@ -19,7 +19,7 @@ class SmartTelephone extends Telephones {
 
     @Override
     void lift() {
-        System.out.println("Lifting Phone");
+        System.out.println("Lifting TelePhone");
     }
 
     @Override
