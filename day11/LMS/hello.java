@@ -1,7 +1,4 @@
 
-import java.awt.print.Book;
-
-Define Max10;
 /* 
 1. Make a library management system 
 2. Create a class library
@@ -13,25 +10,23 @@ Define Max10;
 
 class Library {
     String[] books = new String[5];
-    int count = 0;
+    int No_of_books = 0;
 
     void AddBook(String book) {
-        books[count] = book;
-        count++;
+        books[No_of_books] = book;
+        No_of_books++;
         System.out.println("Book added successfully");
     }
 
-    String ShowAvailableBook() {
+    void ShowAvailableBook() {
         System.out.println("Available Books in the Library are: ");
-        for (int i = 0; i < count; i++) {
+        for (int i = 0; i < No_of_books; i++) {
             System.out.println(books[i]);
         }
     }
 
-    }
-
-    void IssueBook(String Book) {
-        for (int i = 0; i < count; i++) {
+    void IssueBook(String book) {
+        for (int i = 0; i < No_of_books; i++) {
             if (books[i].equals(book)) {
                 System.out.println(book + " issued");
                 books[i] = null;
@@ -42,14 +37,24 @@ class Library {
     }
 
     void ReturnBook(String book) {
-        books[count] = book;
-        count++;
-        System.out.println("Book is returned. ");
+        books[No_of_books] = book;
+        No_of_books++;
+        System.out.println(book + " Book is returned. ");
     }
 
 }
 
 public class hello {
-    int[] IssuedBook;
-    String[] ShowAvailableBook;
+    public static void main(String[] args) {
+        Library lib = new Library();
+        lib.AddBook("Java");
+        lib.AddBook("Python");
+        lib.AddBook("C++");
+        lib.ShowAvailableBook();
+        lib.IssueBook("Java");
+        lib.ShowAvailableBook();
+        lib.ReturnBook("Java");
+        lib.ShowAvailableBook();
+
+    }
 }
