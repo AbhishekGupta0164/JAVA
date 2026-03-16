@@ -1,5 +1,5 @@
 
-// Q1 - To use Thread delay, current thread, getState(), Exception, demonstrate getPriority and setPriority methods 
+// Q1 - To use thread delay, current thread, getState(), Exception, demonstrate getPriority and setPriority methods 
 
 class MyThread1 extends Thread {
     public void run() {
