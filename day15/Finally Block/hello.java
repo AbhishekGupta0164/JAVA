@@ -18,6 +18,8 @@ public class hello {
     public static void main(String[] args) {
         int result = greet();
         System.out.println("The result is: " + result);
+        int a = 4;
+        int b = 9;
         while (true) {
             try {
                 System.out.println((a / b));
@@ -25,10 +27,15 @@ public class hello {
                 System.out.println(e);
                 break;
             } finally {
-                System.out.println("This is finally block " + b);
-
+                System.out.println("This is finally value of b =  " + b);
             }
-            b++;
+            b--;
+        }
+        try {
+            System.out.println(5 / 0); // error (a/0)
+
+        } finally {
+            System.out.println("YES THIS IS FINALLY");
         }
     }
 }
