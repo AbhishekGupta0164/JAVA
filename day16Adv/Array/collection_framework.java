@@ -1,0 +1,35 @@
+
+import java.util.ArrayList;
+
+public class collection_framework {
+    public static void main(String[] args) {
+        // ArrayList;
+        // set
+        // TreeSet
+
+        ArrayList<Integer> l1 = new ArrayList<>();
+        ArrayList<Integer> l2 = new ArrayList<>(5);
+        l2.add(20);
+        l2.add(40);
+        l2.add(80);
+        l1.add(6);
+        l1.add(7);
+        l1.add(8);
+        l1.add(9);
+        l1.add(3);
+        l1.add(0, 1);
+        l1.add(0, 90); // add element at idx 0
+        l1.addAll(l2); // add all elements of l2 to list l1
+        l1.set(1, 444);
+        System.out.println(l1.contains(900)); // check's whether the element exist in list or not
+        System.out.println(l1.indexOf(7)); // idx of element
+
+        // l1.clear(); // clear all elements from list
+
+        for (int i = 0; i < l1.size(); i++) { // print all elements
+            System.out.print(l1.get(i));
+            System.out.print(" , ");
+        }
+
+    }
+}
