@@ -18,7 +18,7 @@ public class LL {
         l1.add(0, 1);
         l1.add(0, 90); // add element at idx 0
         l1.addAll(0, l2); // add all elements of l2 to list l1
-        l1.set(1, 444);
+        l1.set(2, 444);
         l1.addFirst(555);
         l1.addLast(432);
         System.out.println(l1.contains(900)); // check's whether the element exist in list or not
