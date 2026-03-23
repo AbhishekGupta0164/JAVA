@@ -1,4 +1,7 @@
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.TimeZone;
@@ -8,12 +11,18 @@ public class hello {
 
         // DATE AND TIME
         // System.out.println(System.currentTimeMillis() / 1000 / 3600 / 24 / 365);
-
         /*
          * It prints the number of years passed from 1900
          * from 1970 millisecond holds in java
          * it tells the current year from 1900
          */
+        // Date and Time from new java 14
+        LocalDate d = LocalDate.now();
+        System.out.println(d);
+        LocalTime t = LocalTime.now();
+        System.out.println(t);
+        LocalDateTime dt = LocalDateTime.now();
+        System.out.println(dt);
 
         // CALENDAR
 
