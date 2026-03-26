@@ -25,7 +25,7 @@ public class hello {
         s.add(3);
         s.add(4);
         s.add(5);
-        s.add(6);
+        s.add(9);
         s.add(7);
 
         // Q3
