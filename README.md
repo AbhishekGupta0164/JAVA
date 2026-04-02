@@ -1,8 +1,8 @@
 
 ## 👋 Hi, I'm Abhishek Gupta
 
-💻 I’m learning **C, C++ & DSA**, and exploring **Web Development**  
-🚀 Passionate about building **cool projects**  
+💻 I’m learning **C, C++, JAVA & DSA**, and exploring **Web Development**  
+🚀 Passionate about building ** Models & Projects**  
 📫 Connect with me: [GitHub](https://github.com/AbhishekGupta0164)
 
 ---
