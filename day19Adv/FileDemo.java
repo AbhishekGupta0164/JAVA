@@ -3,15 +3,16 @@ public class FileDemo {
     public static void main(String[] args) {
         // Code to create a new file
 
-        // File myFile = new File("file5.txt");
-        // try {
-        // myFile.createNewFile();
-        // } catch (IOException e) {
-        // System.out.println("Unable to create this file ");
-        // e.printStackTrace();
-        // }
+        File myFile = new File("file5.txt");
+        try {
+            myFile.createNewFile();
+        } catch (IOException e) {
+            System.out.println("Unable to create this file ");
+            e.printStackTrace();
+        }
 
         // code to write in a file
+
         // try {
         // FileWriter filewriter = new FileWriter("file5.txt");
         // filewriter.write("this is my first file from this java course\nOkay now
