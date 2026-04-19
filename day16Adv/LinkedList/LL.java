@@ -20,7 +20,7 @@ public class LL {
         l1.addAll(0, l2); // add all elements of l2 to list l1
         l1.set(2, 444);
         l1.addFirst(555);
-        l1.addLast(432);
+        l1.addLast(439);
         System.out.println(l1.contains(900)); // check's whether the element exist in list or not
         System.out.println(l1.indexOf(7)); // idx of element
 
