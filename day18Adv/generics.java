@@ -24,7 +24,7 @@ public class generics {
 
         ArrayList<Integer> arraylist = new ArrayList<>();
 
-        arraylist.add(42);
+        arraylist.add(72);
         arraylist.add(32);
 
         int a = arraylist.get(1);
