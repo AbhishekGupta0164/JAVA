@@ -37,5 +37,6 @@ public class hello03 {
         // Scanner sc = new Scanner(System.in);
         // boolean b1 = sc.hasNextInt();
         // System.out.println(b1);
+        
     }
 }
