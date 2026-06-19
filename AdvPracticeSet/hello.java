@@ -26,6 +26,7 @@ public class hello {
         }
 
         // writing a table in a file
+        
         try {
             FileWriter filewriter = new FileWriter("MultiplicationTable.txt");
             filewriter.write(table);
