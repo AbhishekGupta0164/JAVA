@@ -11,6 +11,7 @@ class Base1 {
 
 }
 
+
 class Derived1 extends Base1 {
 
     Derived1() {
